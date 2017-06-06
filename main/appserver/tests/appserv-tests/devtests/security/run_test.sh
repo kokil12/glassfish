@@ -43,9 +43,8 @@ test_run(){
 	rm -rf opends-image
 	mkdir opends-image
 	pushd opends-image
-
-	scp gf-hudson.us.oracle.com:/net/gf-hudson/gf-hudson-tools/OpenDS-2.2.1.zip .	
-	unzip -q OpenDS-2.2.1.zip
+	
+	unzip -q /net/gf-hudson/gf-hudson-tools/OpenDS-2.2.1.zip
 
 	export OPENDS_HOME=$PWD/OpenDS-2.2.1
 	popd
