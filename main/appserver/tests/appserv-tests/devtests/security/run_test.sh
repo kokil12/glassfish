@@ -44,7 +44,7 @@ test_run(){
 	mkdir opends-image
 	pushd opends-image
 	
-	unzip -q /net/gf-hudson/gf-hudson-tools/OpenDS-2.2.1.zip
+	unzip -q /net/gf-hudson/scratch/java_re_node/OpenDS-2.2.1.zip
 
 	export OPENDS_HOME=$PWD/OpenDS-2.2.1
 	popd
